@@ -9,7 +9,7 @@
 5. `python manage.py migrate`
 6. `python manage.py createsuperuser`
 7. `python manage.py runserver`
-8. On a new terminal window `python manage.py rundramatiq`
+8. On a new terminal window, source the project cd into project dir and `python manage.py rundramatiq`
 9. Navigate to localhost:8000/admin
 10. Under TestModels app add a new record, hit save & continue editing.
 11. Hit save once again on the newly created record, each time you hit save a scheduled job is being created
